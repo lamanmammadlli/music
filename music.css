@@ -1,0 +1,605 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.basliqmenu {
+    width: 100%;
+    background-color: #08192d;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.basliqmenu img {
+    width: 131px;
+    height: 19px;
+    padding: 50px 0px;
+}
+
+.basliqmenu ul {
+    display: flex;
+}
+
+.basliqmenu ul li {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 50px 40px;
+}
+
+.basliqmenu ul li:hover {
+    color: #fc0254;
+}
+
+.basliqmenu .diva {
+    margin: 50px 0px;
+    font-size: 18px;
+}
+
+.basliqmenu .diva .a1 {
+    text-decoration: none;
+    color: #979aa5;
+    padding: 0px 10px;
+}
+
+.basliqmenu .diva .a2 {
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+}
+
+.basliqmenu .diva .a3 {
+    text-decoration: none;
+    color: #fc0254;
+    padding-left: 30px;
+}
+
+.basliqmenu .divmenu {
+    width: 80px;
+    height: 24px;
+    background-color: #1c294a;
+    border-radius: 5px;
+    display: none;
+    text-align: center;
+}
+
+.basliqmenu .divmenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.basliqmusic {
+    width: 100%;
+    background-color: #0a183d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.basliqmusic .divsol {
+    width: 45%;
+}
+
+.basliqmusic img {
+    animation-name: anm1;
+    animation-duration: 0.8s;
+    animation-delay: 0.3s;
+    position: relative;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.basliqmusic .divsol h1 {
+    color: white;
+    font-size: 80px;
+    padding-top: 60px;
+    line-height: 70px;
+    animation-name: anm1;
+    animation-duration: 0.8s;
+    animation-delay: 0.5s;
+    position: relative;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.basliqmusic .divsol span {
+    color: #fc0254;
+}
+
+.basliqmusic .divsol p {
+    width: 450px;
+    padding-top: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 40px;
+    animation-name: anm1;
+    animation-duration: 0.8s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+    position: relative;
+    opacity: 0;
+}
+
+.basliqmusic .divsol button {
+    width: 200px;
+    color: white;
+    padding: 24px 30px;
+    border-radius: 40px;
+    margin: 3px;
+    border: none;
+    animation-name: anm1;
+    animation-duration: 0.8s;
+    position: relative;
+    opacity: 0;
+}
+
+.basliqmusic .divsol .btn1 {
+    background-color: #fc0254;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.basliqmusic .divsol .btn2 {
+    background-color: #383b70;
+    animation-delay: 1.3s;
+    animation-fill-mode: forwards;
+}
+
+
+
+.bodyunlimited {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.bodyunlimited h1 {
+    width: 38%;
+    color: #0a183d;
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 700;
+    animation-delay: 0.5s;
+}
+
+.bodyunlimited .divsag {
+    width: 38%;
+    margin-top: 20px;
+    animation-delay: 0.8s;
+}
+.anima{
+    animation-name:anm1 ;
+    animation-duration: 0.8s;
+    /* animation-delay: 0.8s; */
+    animation-fill-mode: forwards;
+    position: relative;
+}
+.bodyunlimited .divsag p {
+    color: #6a7080;
+    font-size: 18px;
+    line-height: 30px;
+}
+.bodyunlimited button {
+    width: 200px;
+    color: white;
+    padding: 24px 30px;
+    border-radius: 40px;
+    border: none;
+    background-color: #fc0254;
+    margin-top: 20px;
+}
+.bodywork {
+    width: 100%;
+    background-color: #0a183d;
+    background-image: url(https://technext.github.io/solmusic/img/how-to-bg.jpg);
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.bodywork h1 {
+    width: 75%;
+    color: white;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.bodywork .iconlu .circle {
+    width: 60px;
+    height: 60px;
+    background-color: #fc0254;
+    border-radius: 100%;
+}
+
+.bodywork .iconlu .circle img {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.bodywork .iconlu {
+    width: 380px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.bodywork .iconlu h2 {
+    color: white;
+    margin: 10px 0px;
+    font-size: 26px;
+}
+
+.bodywork .iconlu p {
+    color: #6a7080;
+    font-size: 18px;
+    width: 350px;
+    margin: 20px 0px;
+}
+
+.bodyartist {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.bodyartist .divyuxari {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bodyartist .divyuxari h1 {
+    width: 40%;
+    font-size: 72px;
+    color: #0a183d;
+    line-height: 60px;
+    line-height: 60px;
+}
+
+.bodyartist .divyuxari p {
+    width: 40%;
+    font-size: 19px;
+    color: #6a7080;
+    line-height: 28px;
+
+}
+
+.bodyartist .sekil {
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.bodyartist .sekil img {
+    border-radius: 40px;
+}
+
+.bodyartist .sekil p {
+    text-align: center;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0a183d;
+}
+
+.bodysub {
+    width: 100%;
+    /* height: 600px; */
+    background: #0a183d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bodysub .divsol {
+    width: 40%;
+}
+
+.bodysub .divsol h1 {
+    width: 90%;
+    color: white;
+    font-size: 68px;
+    font-weight: 600;
+    line-height: 70px;
+}
+
+.bodysub .divsol h3 {
+    width: 90%;
+    color: #fc0254;
+    font-size: 34px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.bodysub .divsol p {
+    width: 90%;
+    color: #6a7080;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    line-height: 26px;
+}
+
+.bodysub .divsol button {
+    width: 200px;
+    color: white;
+    padding: 24px 30px;
+    border-radius: 40px;
+    margin: 5px;
+    border: none;
+    background-color: #fc0254;
+}
+
+.bodysub .divsag {
+    width: 550px;
+    height: 430px;
+    background-color: #1c294a;
+    border-radius: 40px;
+}
+
+.bodysub .divsag ul {
+    padding-left: 130px;
+    margin-top: 80px;
+}
+
+.bodysub .divsag ul li {
+    color: white;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 30px;
+}
+
+.bodysub .divsag ul li img {
+    margin-right: 25px;
+}
+
+.bodypremium {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.bodypremium .divyuxari {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bodypremium .divyuxari h1 {
+    width: 50%;
+    font-size: 75px;
+    font-weight: 500;
+}
+
+.bodypremium .divyuxari p {
+    width: 43%;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    line-height: 26px;
+}
+
+.bodypremium .divasagi {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.bodypremium .divasagi .divsekil {
+    margin: 40px;
+    text-align: center;
+
+}
+
+.bodypremium .divasagi .divsekil img {
+    border-radius: 100%;
+}
+
+.bodypremium .divasagi .divsekil h2 {
+    color: #0a183d;
+    margin-top: 20px;
+
+}
+
+.bodypremium .divasagi .divsekil p {
+    color: #212529;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #0a183d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.footer .divsol {
+    width: 600px;
+    /* height: 200px; */
+    /* background-color: rgb(0, 0, 0); */
+}
+
+.footer .divsol p {
+    font-size: 12px;
+    color: #505565;
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.footer .divsol p a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.footer .divsol i {
+    color: #505565;
+    margin-right: 26px;
+}
+
+.footer .divsag {
+    width: 600px;
+    /* height: 200px; */
+    /* background-color: red; */
+    display: flex;
+}
+
+.footer .divsag ul {
+    margin-right: 100px;
+    list-style-type: none;
+
+}
+
+.footer .divsag ul p {
+    padding-bottom: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.footer .divsag ul li {
+    margin-top: 15px;
+}
+
+.footer .divsag ul li a {
+    text-decoration: none;
+    color: #505565;
+}
+
+@keyframes anm1 {
+    from {
+        top: 50px;
+        opacity: 0;
+    }
+
+    to {
+        top: 0px;
+        opacity: 1;
+    }
+}
+@media screen and (max-width: 844px) {
+
+    .basliqmenu .diva,
+    .basliqmenu ul li {
+        display: none;
+    }
+
+    .basliqmenu .divmenu {
+        display: block;
+    }
+
+    .basliqmusic img {
+        display: none;
+    }
+
+    .basliqmusic .divsol {
+        width: 90%;
+    }
+
+    .basliqmusic .divsol h1 {
+        font-size: 40px;
+
+    }
+
+    .basliqmusic .divsol p {
+        width: 100%;
+        font-size: 18px
+    }
+
+    .bodyunlimited h1 {
+        width: 90%;
+        font-size: 46px;
+    }
+
+    .bodyunlimited .divsag {
+        width: 90%;
+    }
+
+    .bodywork h1 {
+        font-size: 40px;
+        margin-left: -70px;
+
+    }
+
+    .bodyartist .divh1,
+    .divp {
+        width: 100%;
+    }
+
+    .bodyartist .divyuxari h1 {
+        width: 90%;
+        font-size: 40px;
+        line-height: 43px;
+        margin-bottom: 20px;
+    }
+
+    .bodyartist .divyuxari p {
+        width: 90%;
+    }
+
+    .bodysub .divsol,
+    .divsag {
+        width: 100%;
+        margin: 10px;
+        /* font-size: 30px; */
+    }
+
+    .bodysub .divsol h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+
+    .bodysub .divsag ul {
+        padding-left: 5px;
+    }
+
+    .bodypremium .divyuxari h1 {
+        width: 100%;
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+
+    .bodypremium .divyuxari p {
+        width: 100%;
+    }
+
+    .bodypremium .divasagi {
+        text-align: center;
+        margin-left: 50px;
+    }
+    .footer {
+        flex-wrap: wrap-reverse;
+    }
+    .footer .divsol{
+        margin-top: 30px;
+        /* margin-left: 15px; */
+    }
+    .footer .divsag {
+        display: block;
+    }
+    .footer .divsag ul{
+        margin-top: 20px;
+    }
+}
